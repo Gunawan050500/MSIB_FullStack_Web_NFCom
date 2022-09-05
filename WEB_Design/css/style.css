@@ -1,0 +1,58 @@
+p{
+    color: red;
+    text-align: justify;
+    font-family: calibri, verdana, comic sans, tahoma;
+    font-size: 12pt;
+}
+
+body{
+    /*background-image: linear-gradient(red, green, blue, yellow); */
+    background-color: khaki;
+    background-image: url('../image/LogoTanpaBG.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;    
+    margin: 0cm 3cm; /* margin-top bottom: 0cm; dan margin-left right: 3cm; */
+}
+
+hr{
+    border-width: 3px;
+    border-color: #990000;
+    border-style: dotted;
+}
+
+/* grouping */
+fieldset, legend{
+    border: red inset 15px;
+}
+
+legend{
+    padding: 10px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: ubuntu, calibri;
+    letter-spacing: 5px;
+}
+
+table{
+    border: 1px ridge maroon;
+    margin: auto;
+
+}
+
+td{
+    padding: 5x;
+    border: 1px solid green;
+}
+
+ol{
+    list-style-image: url(../image/musik.gif);
+}
+
+ul{
+    list-style-image: url(../image/nyanyi.gif);
+}
+
